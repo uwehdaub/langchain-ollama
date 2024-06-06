@@ -304,6 +304,14 @@ via the GitHub UI.
 
 ## WaaS schema
 
+WaaS supports 4 environment types: build, test, production, showcase.
+
+WaaS supports 3 runtimeProviders: metro-kubernetes, gcp-gke, gcp-cloud-run.
+
+WaaS supports 2 secretsProvider: sops, Google Secret Manager.
+
+Details are mentioned in the following schema definition:
+
 ```yaml
 apiVersion: waas/v2
 metadata:
